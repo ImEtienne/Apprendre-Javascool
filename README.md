@@ -1,2 +1,2 @@
-# Apprendre-Javascool-
+# Apprendre-Javascool
 Javascool programming exercises
