@@ -1,0 +1,16 @@
+void main() {
+    int x = 3;
+    int y = 6;
+    int z = 3;
+    afficheMax(x, y, z);
+}
+
+int max(int x, int y, int z) {
+    if (x < y && x < z) return z;
+    if (x < y) return y;
+    return x;
+}
+
+void afficheMax(int x, int y, int z) {
+    println("le maximun est: " + max(x, y, z));
+}

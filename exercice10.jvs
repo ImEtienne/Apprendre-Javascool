@@ -1,0 +1,13 @@
+void main() {
+    int n = 0;
+    println("boucle while: ");
+    while (n < 10) {
+        println(n + " Hello wolrd ! ");
+        n++;
+    }
+    println("boucle for: ");
+    for (int i = 0; i < 10; i++) {
+        println(i + " Hello world !");
+    }
+    println();
+}

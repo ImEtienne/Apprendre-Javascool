@@ -1,0 +1,5 @@
+void main() {
+    int rayon = readInt();
+    Double res = pow(rayon, 2);
+    println(res);
+}

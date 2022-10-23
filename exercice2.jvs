@@ -1,0 +1,8 @@
+void main() {
+    println("Bonjour, quel est ton nom");
+    String nom = readString();
+    println();
+    print("EnchantE ");
+    print(nom);
+    println(", et ... à bientOt !");
+}

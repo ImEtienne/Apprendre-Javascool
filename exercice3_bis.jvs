@@ -1,0 +1,24 @@
+void main() {
+    Double pi = 3.14159;
+    println("Entrer le rayon: ");
+    Double rayon = readDouble();
+    afficheCirc(pi, rayon);
+}
+
+double Calcir(Double pi, Double rayon) {
+    return 2 * rayon * pi;
+}
+
+double CalAire(Double pi, Double rayon) {
+    return pi * (rayon * 2);
+}
+
+void afficheCirc(Double pi, Double rayon) {
+    println(
+            "Cir du cercle de rayon "
+                    + rayon
+                    + " : "
+                    + Calcir(pi, rayon)
+                    + " aire : "
+                    + CalAire(pi, rayon));
+}

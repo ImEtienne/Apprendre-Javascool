@@ -1,0 +1,10 @@
+void main() {
+    Double circ = 0.0;
+    Double aire = 0.0;
+    println("Entrer le rayon: ");
+    int rayon = readInt();
+    Double pi = 3.14159;
+    circ = 2 * rayon * pi;
+    aire = pi * (rayon * 2);
+    println("Circonférence du cercle de rayon " + rayon + " : " + circ + " aire : " + aire);
+}

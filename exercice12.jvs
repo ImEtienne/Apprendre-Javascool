@@ -1,0 +1,19 @@
+void main() {
+    // println("Somme des entiers de 1 a 10: " + sommeTousEntiers(10));
+    int x = 10;
+    afficher(x);
+}
+
+/* int sommeTousEntiers(int x) {
+    if (x != 0) return x + sommeTousEntiers(x - 1);
+    return 0;
+} */
+
+int afficher(int x) {
+    if (x == 0) {
+        return 0;
+    } else {
+        println(x + " GraddySauge");
+        return afficher(x - 1);
+    }
+}

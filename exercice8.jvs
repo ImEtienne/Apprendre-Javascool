@@ -1,0 +1,13 @@
+void main() {
+    int y = readInt("Entrer la valeur");
+    afficheAbs(y);
+}
+
+int functionAbs(int x) {
+    if (x > 0) return x;
+    return -x;
+}
+
+void afficheAbs(int x) {
+    println("la valeur absolue: " + functionAbs(x));
+}

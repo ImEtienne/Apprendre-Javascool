@@ -1,0 +1,9 @@
+void main() {
+    println("Entrer la temperature: ");
+    int temperature = readInt();
+    if (temperature > 15 && temperature < 21) {
+        println("Temperature ideale !");
+    } else {
+        println("médiocre");
+    }
+}

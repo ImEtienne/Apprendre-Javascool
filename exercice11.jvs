@@ -1,0 +1,32 @@
+void main() {
+    int nbemystere = random(0, 1000);
+    int x = saisieUnMille();
+    int compteur = 0;
+    while (x != nbemystere) {
+        while (compteur <= 10) {
+            if (x < nbemystere) {
+                println(x + " est trop petit...");
+            } else {
+                println(x + " est trop grand...");
+            }
+            x = saisieUnMille();
+            compteur++;
+        }
+    }
+    if (compteur > 10) {
+        println(" Perdu ! ");
+    } else {
+        println("Bravo, c'etait bien " + x);
+    }
+}
+
+int saisieUnMille() {
+    print("Entrez un nombre: ");
+    int n = readInt();
+    while ((n < 1) || (n > 1000)) {
+        println("Erreur, nombre hors de l'intervalle [0;1000]");
+        print("Entrez un nombre: ");
+        n = readInt();
+    }
+    return n;
+}
